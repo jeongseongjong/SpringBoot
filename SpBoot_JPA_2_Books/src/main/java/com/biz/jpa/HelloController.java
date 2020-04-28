@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HelloController {
 
-	@RequestMapping(value="",method=RequestMethod.GET)
+	@RequestMapping(value="")
 	public String hello() {
 		
-		return "redirect:/book/list";
+		return "redirect:/book/pagelist";
 	}
 }
