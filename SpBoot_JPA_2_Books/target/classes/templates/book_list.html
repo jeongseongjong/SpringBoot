@@ -41,14 +41,14 @@ $(function(){
 		<th>가격</th>
 		<th>비고</th>
 	</tr>
-									<!-- th:~~는 하나의 변수에 값을 가져오는 코드? -->
+									<!-- th:data-~~는 data의 속성값만 부여가능 -->
 	<tr th:each="book : ${bookList}" th:data-book-id="${book.id}">
 		<td th:text="${book.id}"></td>
-													<!-- th:attr은 여러가지 속성값을 가져오는 코드? -->
+													<!-- th:attr은 여러가지 속성값을 가져오는 코드 -->
 		<td th:text="${book.title}" class="book_td" th:attr="data-book-id=${book.id}">
 		
 		</td>
-		<td th:text="${book.comp}"></td>
+		<td th:text="${book.comp}" ></td>
 		<td th:text="${book.auth}"></td>
 		<td th:text="${book.year}"></td>
 		<td th:text="${book.price}"></td>

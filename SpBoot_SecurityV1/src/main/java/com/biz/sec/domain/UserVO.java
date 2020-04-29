@@ -44,9 +44,11 @@ public class UserVO implements UserDetails{
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id",columnDefinition="bigint")
 	private Long id;
 	
-	@Column(name="username", unique = true, length=64)
+	@Column(name="username", columnDefinition = "varchar(64)", 
+			unique = true, length=64)
 	private String username;
 	
 	// 설정하지 않으면 length = 255 자동설정
@@ -77,7 +79,7 @@ public class UserVO implements UserDetails{
 	 * SELECT를 수행하도록 하는 지연옵션
 	 */
 	@OneToMany(mappedBy = "userVO", 
-				//cascade = {CascadeType.ALL}, 
+				cascade = {CascadeType.ALL}, 
 				fetch = FetchType.LAZY)
 	private Set<UserRole> userRoles;
 }
