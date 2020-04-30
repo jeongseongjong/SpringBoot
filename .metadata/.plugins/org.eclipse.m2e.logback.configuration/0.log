@@ -5120,3 +5120,9 @@
 2020-04-29 16:27:01,796 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-04-29 16:27:01,799 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-29 16:27:01,799 [Worker-358: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\bizwork\springBoot\SpBoot_SecurityV1\src\test\resources
+2020-04-30 21:35:12,153 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-04-30 21:35:25,636 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 21:35:25,642 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-04-30 21:35:25,670 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-04-30 21:35:25,683 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 21:35:25,683 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\bizwork\springBoot\SpBoot_SecurityV1\src\test\resources
